@@ -1,0 +1,58 @@
+/* body {
+    background-color: purple;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+   */
+
+
+body {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    font-size: 120%;
+    font-weight: 1000;
+    background-color: #cfcfcf;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#navBar a {
+    text-decoration: none;
+    color: #222831;
+
+}
+
+#navBar a:hover {
+    color: #FF1E00;
+}
+
+#donateText {
+    background-color: #cfcfcf;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+#donateBtn {
+    width: 30%;
+    
+}

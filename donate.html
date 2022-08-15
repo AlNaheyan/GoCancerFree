@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GCF - Donate </title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+    </style>
+</head>
+<body>
+    <div id="navBar">
+        <a href="home.html"> Home</a> 
+        <a href="#"> Donate</a> 
+        <a href="resource.html"> Resource</a> 
+        <a href="contact.html"> Contact</a> 
+    </div>
+
+    <div id="donateContainer">
+
+        <div id="donateText">
+            <h1 id="donateHereText">  Donate Here </h1>  
+            <p> You may donate via PayPal using Credit or Debit Card. </p>
+            
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="business" value="HCFWBND3NXU5E" />
+                <input type="hidden" name="no_recurring" value="1" />
+                <input type="hidden" name="item_name" value="Our purpose is to raise money for anyone who suffers from cancer and help them out." />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input id="donateBtn" type="image" src="donate.png" border="0" name="submit" title="Donate Here Via PayPal" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+        </div>
+
+        
+    </div>
+
+</body>
+</html>
